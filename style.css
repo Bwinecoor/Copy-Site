@@ -14,6 +14,7 @@ margin-left: auto;
     height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: bottom;
     
 }
 .hero-text {
@@ -70,13 +71,34 @@ margin-left: auto;
  margin: auto;
 }
 .skills {
-
+ background: #F5F5F5;
 }
 .skillsimg {
-    
+    width: 100%;
+
 }
 .leftside {
     text-align: left;
     margin: auto;
     
+}
+.progbar {
+    margin: auto;
+}
+.progress-bar {
+    border-radius: 0%;
+    border: none;
+    outline: auto;
+    background-color: #10C9C3;
+}
+.progress {
+    height: 6px;
+}
+#stats {
+    background-color: #10C9C3;
+}
+.stats {
+    margin: auto;
+    text-align: left;
+    color: white;
 }
