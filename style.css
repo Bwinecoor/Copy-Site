@@ -84,12 +84,14 @@ margin-left: auto;
 }
 .progbar {
     margin: auto;
+    padding: 150px;
 }
 .progress-bar {
     border-radius: 0%;
     border: none;
     outline: auto;
     background-color: #10C9C3;
+
 }
 .progress {
     height: 6px;
@@ -101,4 +103,42 @@ margin-left: auto;
     margin: auto;
     text-align: left;
     color: white;
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.lemonimg {
+ background-image: url(images/Package\ Design\ Lemon\ Tea\ -\ fabian\ krotzer\ Frame.png);
+}
+.vanillaimg {
+ background-image: url(images/Package\ Design\ Vanilla\ Powder\ -\ fabian\ krotzer\ Frame.png);
+
+}
+.coconutimg {
+ background-image: url(images/Package\ Design\ Coconut\ -\ fabian\ krotzer\ Frame.png);
+
+}
+.komasoimg {
+ background-image: url(images/Package\ Design\ Komaso\ -\ fabian\ krotzer\ Frame.png);
+
+}
+.spicesimg {
+ background-image: url(images/Package\ Design\ Spices\ -\ fabian\ krotzer\ Frame.png);
+
+}
+.saladimg {
+ background-image: url(images/Package\ Design\ Salad\ -\ fabian\ krotzer\ Frame.png);
+
+}
+.oliveoilimg {
+ background-image: url(images/Package\ Design\ Olive\ Oil\ -\ fabian\ krotzer\ Frame.png);
+
+}
+.seaweedimg {
+ background-image: url(images/Package\ Design\ Seaweed\ -\ fabian\ krotzer\ Frame.png);
+
+}
+.productsheight {
+    height: 250px;
 }
