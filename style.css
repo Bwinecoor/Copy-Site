@@ -1,12 +1,15 @@
 .font1 {
     font-family: 'Montserrat', sans-serif;
 }
+
 .font2 {
     font-family: 'Nunito Sans', sans-serif;
 }
+
 .align-right {
-margin-left: auto;
+    margin-left: auto;
 }
+
 /* ----------------------Hero Image Start------------------------------------ */
 .custom-hi {
     background-image: url(images/aidan-hancock-8RU4OuA6Yug-unsplash.png);
@@ -15,8 +18,9 @@ margin-left: auto;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    
+
 }
+
 .hero-text {
     text-align: left;
     position: absolute;
@@ -24,10 +28,10 @@ margin-left: auto;
     left: 70%;
     transform: translate(-50%, -50%);
     color: black;
-  }
+}
 
 
-  .hero-text button {
+.hero-text button {
     border: none;
     outline: 0;
     display: inline-block;
@@ -40,52 +44,62 @@ margin-left: auto;
     font-size: 13px;
     width: 180px;
     height: 50px;
-  }
-  
+}
+
 
 
 /* ------------------Hero Image End-------------------------------------------------------- */
 .nav-bg {
-    background-image:rgba(255, 255, 255, 0);
+    background-image: rgba(255, 255, 255, 0);
 }
+
 .navpad {
     padding-top: 20px;
     padding-right: 220px;
 }
+
 .hovernav:hover {
     color: #10C9C3;
-    cursor:pointer;
+    cursor: pointer;
 }
+
 .heroinfo {
     text-align: right;
     margin-top: 7%;
 
 }
+
 .light-text {
     color: #787878;
 }
+
 .about-content {
- text-align: center;
- padding-top: 110px;
- width: 32%;
- margin: auto;
+    text-align: center;
+    padding-top: 110px;
+    width: 32%;
+    margin: auto;
 }
+
 .skills {
- background: #F5F5F5;
+    background: #F5F5F5;
 }
+
 .skillsimg {
     width: 100%;
 
 }
+
 .leftside {
     text-align: left;
     margin: auto;
-    
+
 }
+
 .progbar {
     margin: auto;
     padding: 150px;
 }
+
 .progress-bar {
     border-radius: 0%;
     border: none;
@@ -93,12 +107,15 @@ margin-left: auto;
     background-color: #10C9C3;
 
 }
+
 .progress {
     height: 6px;
 }
+
 #stats {
     background-color: #10C9C3;
 }
+
 .stats {
     margin: auto;
     text-align: left;
@@ -108,37 +125,60 @@ margin-left: auto;
     padding-top: 75px;
     padding-bottom: 75px;
 }
-.lemonimg {
- background-image: url(images/Package\ Design\ Lemon\ Tea\ -\ fabian\ krotzer\ Frame.png);
-}
-.vanillaimg {
- background-image: url(images/Package\ Design\ Vanilla\ Powder\ -\ fabian\ krotzer\ Frame.png);
 
-}
-.coconutimg {
- background-image: url(images/Package\ Design\ Coconut\ -\ fabian\ krotzer\ Frame.png);
-
-}
-.komasoimg {
- background-image: url(images/Package\ Design\ Komaso\ -\ fabian\ krotzer\ Frame.png);
-
-}
-.spicesimg {
- background-image: url(images/Package\ Design\ Spices\ -\ fabian\ krotzer\ Frame.png);
-
-}
-.saladimg {
- background-image: url(images/Package\ Design\ Salad\ -\ fabian\ krotzer\ Frame.png);
-
-}
-.oliveoilimg {
- background-image: url(images/Package\ Design\ Olive\ Oil\ -\ fabian\ krotzer\ Frame.png);
-
-}
-.seaweedimg {
- background-image: url(images/Package\ Design\ Seaweed\ -\ fabian\ krotzer\ Frame.png);
-
-}
 .productsheight {
-    height: 250px;
+    width: 100%;
+    height: 100%;
+}
+
+.nomargpad {
+    padding: 0px;
+    margin: 0px;
+}
+
+.prodbg {
+    background-color: #F5F5F5;
+}
+
+.services-padding {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.imgmarg {
+    margin-bottom: 30px;
+}
+
+.prodimgfit {
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+.prodimghov {}
+
+.prodimghov:hover {
+    background: url(images/icons/hover-icon.png);
+    background-color: black;
+    opacity: 50%;
+}
+
+.servicetitle {
+    padding-top: 85px;
+    padding-bottom: 90px;
+}
+
+.service-text {
+    padding-right: 105px;
+    padding-left: 105px;
+}
+#quote {
+    background-color: #10C9C3;
+}
+.quote {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+}
+.quotebottom {
+    padding-bottom: 25px;
 }
