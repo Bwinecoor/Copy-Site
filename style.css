@@ -1,392 +1,47 @@
-.font1 {
-    font-family: 'Montserrat', sans-serif;
+body {
+    background: #000000;
 }
 
-.font2 {
-    font-family: 'Nunito Sans', sans-serif;
-}
-
-.align-right {
-    margin-left: auto;
-}
-
-/* ----------------------Hero Image Start------------------------------------ */
-.custom-hi {
-    background-image: url(images/aidan-hancock-8RU4OuA6Yug-unsplash.png);
-    width: 100%;
-    height: 700px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-
-}
-
-.hero-text {
-    text-align: left;
-    position: absolute;
-    top: 38%;
-    left: 70%;
-    transform: translate(-50%, -50%);
-    color: black;
-}
-
-
-.hero-text button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 10px 25px;
-    color: white;
-    background-color: #10C9C3;
-    text-align: center;
-    cursor: pointer;
-    letter-spacing: 1px;
-    font-size: 13px;
-    width: 180px;
-    height: 50px;
-}
-
-
-
-/* ------------------Hero Image End-------------------------------------------------------- */
-.nav-bg {
-    background-image: rgba(255, 255, 255, 0);
-}
-
-.navpad {
-    padding-top: 20px;
-    padding-right: 220px;
-}
-
-.hovernav:hover {
-    color: #10C9C3;
-    cursor: pointer;
-}
-
-.heroinfo {
-    text-align: right;
-    margin-top: 7%;
-
-}
-
-.light-text {
-    color: #787878;
-}
-
-.about-content {
-    text-align: center;
-    padding-top: 110px;
-    width: 32%;
-    margin: auto;
-}
-
-.skills {
-    background: #F5F5F5;
-}
-
-.skillsimg {
-    width: 100%;
-
-}
-
-.leftside {
-    text-align: left;
-    margin: auto;
-
-}
-
-.progbar {
-    margin: auto;
-    padding: 150px;
-}
-
-.progress-bar {
-    border-radius: 0%;
-    border: none;
-    outline: auto;
-    background-color: #10C9C3;
-
-}
-
-.progress {
-    height: 6px;
-}
-
-#stats {
-    background-color: #10C9C3;
-}
-
-.stats {
-    margin: auto;
-    text-align: left;
-    color: white;
-    padding-left: 125px;
-    padding-right: 125px;
-    padding-top: 75px;
-    padding-bottom: 75px;
-}
-
-.productsheight {
-    width: 100%;
-    height: 100%;
-}
-
-.nomargpad {
-    padding: 0px;
+.container {
+    background: #000000;
     margin: 0px;
 }
 
-.prodbg {
-    background-color: #F5F5F5;
+.entry {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 2px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
-.services-padding {
-    padding-top: 75px;
-    padding-bottom: 75px;
-}
-
-.imgmarg {
-    margin-bottom: 30px;
-}
-
-.prodimgfit {
-    padding: 0px 0px;
-    margin: 0px 0px;
-}
-
-.servicetitle {
-    padding-top: 85px;
-    padding-bottom: 90px;
-}
-
-.service-text {
-    padding-right: 105px;
-    padding-left: 105px;
-}
-
-#quote {
-    background-color: #10C9C3;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.quote {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    color: white;
-}
-
-.quotebottom {
-    padding-bottom: 25px;
-}
-
-#sponsorthing {
-    background-color: white;
-
-}
-
-.sponsor-margin {
-    margin-top: 75px;
-    margin-bottom: 75px;
-}
-
-.quotetop {
-    font-size: 25px;
-}
-
-.replacebr {
-    padding-bottom: 25px;
-}
-
-#contact-me {
-    background-color: #F5F5F5;
-}
-
-.contact-small {
+.calc-container {
+    width: 305px;
+    background-color: rgb(9, 114, 138);
+    border-radius:20px;
+    padding: 30px;
+    margin-top: 10px;
     margin-bottom: 10px;
-    padding-left: 72.5px;
 }
 
-.contact-info1 {
-    border: 0px;
-    border-radius: 0px;
-    width: 400px;
-    margin: auto;
-    padding: 12px;
+.numBut {
+    height: 59px;
+    width: 59px;
+    margin: 10px 4px;
+    border: none !important;
 }
 
-.contact-info2 {
-    border: 0px;
-    border-radius: 0px;
-    width: 850px;
-    padding: 12px;
-    margin: auto;
+.mathBut {
+    height: 59px;
+    width: 59px;
+    margin: 10px 4px;
+    border: none !important;
 }
-
-#footer {
-    padding-top: 100px;
-    padding-bottom: 75px;
-    background-color: #141414;
-    margin: auto;
+.equalBut {
+    height: 59px;
+    width: 126px;
+    margin: 10px 4px;
+    border: none !important;
 }
-
-.gray {
-    color: #F5F5F5;
-}
-
-.gray2 {
-    color: #787878;
-}
-
-table,
-th,
-td {
-    border: 0px solid black;
-    padding-right: 60px;
-}
-
-.copyright {
-    margin-right: 200px;
-}
-
-.footermarg {
-    margin-left: 8%;
-    margin-right: 8%;
-}
-.small-text-padding {
-    padding-bottom: 20px;
-}
-.large-text-padding {
-    padding-bottom: 120px;
-}
-.small-text-padding-top {
-    padding-top: 20px;
-}
-.large-text-padding-top {
-    padding-top: 120px;
-}
-.comment {
-    padding-bottom: 150px;
-    margin-bottom: 50px;
-}
-.contact-us-button {
-    background-color:#10C9C3;
-    color: #F5F5F5;
-    padding: 15px 30px;
-    border: 0px;
-    width: 180px;
-}
-
-.coconut {
-    background-image: url(/images/Package\ Design\ Coconut\ -\ fabian\ krotzer\ Frame.png);
-    height: 100px;
-    margin: auto;
-   }
-   
-   .fresh-salad {
-    background-image: url(/images/Package\ Design\ Salad\ -\ fabian\ krotzer\ Frame.png);
-   }
-   
-   .komaso {
-    background-image: url(/images/Package\ Design\ Komaso\ -\ fabian\ krotzer\ Frame.png);
-   }
-   
-   .lemon {
-    background-image: url(/images/Package\ Design\ Lemon\ Tea\ -\ fabian\ krotzer\ Frame.png);
-   }
-   
-   .olive-oil {
-    background-image: url(/images/Package\ Design\ Olive\ Oil\ -\ fabian\ krotzer\ Frame.png);
-   }
-   
-   .sea-weed-mix {
-    background-image: url(/images/Package\ Design\ Seaweed\ -\ fabian\ krotzer\ Frame.png);
-   }
-   
-   .spices {
-    background-image: url(/images/Package\ Design\ Spices\ -\ fabian\ krotzer\ Frame.png);
-   
-   }
-   
-   .vanilla {
-    background-image: url(/images/Package\ Design\ Vanilla\ Powder\ -\ fabian\ krotzer\ Frame.png);
-   }
-
-.coconut {
- background-image: url(/images/hoverimages/coconut\ flakes.png);
-}
-
-
-
-.fresh-salad:hover {
- background-image: url(/images/hoverimages/fresh\ salad\ mix.png);
-}
-
-.komaso:hover {
- background-image: url(/images/hoverimages/komaso.png);
-}
-
-.lemon:hover {
- background-image: url(/images/hoverimages/lemon.png);
-}
-
-.olive-oil:hover {
- background-image: url(/images/hoverimages/olive\ oil.png);
-}
-
-.sea-weed-mix:hover {
- background-image: url(/images/hoverimages/sea\ weed\ mix.png);
-}
-
-.spices:hover {
- background-image: url(/images/hoverimages/spices.png);
-
-}
-
-.vanilla:hover {
- background-image: url(/images/hoverimages/vanilla.png);
-}
-.contacttext {
-    padding-left: 685px;
-    padding-right: 685px;
-}
-
-  .prodimghov {
-
-}
-
-.prodimghov:hover {
-    background: url(images/icons/hover-icon.png);
-    background: red;
-    opacity: 50%;
-}
-  .prodbg {
-    background-color: #F5F5F5;
-}
-.prodimgfit {
-    padding: 0px 0px;
-    margin: 0px 0px;
-}
-
-
-
-/* ------------------------------------------------------- */
-.figure {
-    position: relative;
-    width: 360px; /* can be omitted for a regular non-lazy image */
-    max-width: 100%;
-  }
-  .figure img.Sirv.image-hover {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    object-fit: contain;
-    opacity: 0;
-    transition: opacity .2s;
-  }
-  .figure:hover img.Sirv.image-hover {
-    opacity: 1;
-  }
-  /* ----------------------------------------------- */
