@@ -1,86 +1,285 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <title>Calculator</title>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
+  <link href="style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito+Sans:opsz@6..12&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-  
+  <!-- Navbar with hover effect -->
+  <div class="container-fluid">
+    <div class="row">
+      <a id="top"></a>
+      <div class="custom-hi">
+        <nav class="navbar navbar-expand-sm nav-bg">
+          <img src="images/logos/brand-logo.png" class="mx-4">
+          <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="align-right font1 navpad">
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+              <div class="navbar-text mx-3">
+                <p class="nav-link hovernav" href="#top">Home</p>
+              </div>
+              <div class="navbar-text mx-4">
+                <p class="nav-link hovernav" href="#">About</p>
+              </div>
+              <div class="navbar-text mx-4">
+                <p class="nav-link hovernav" href="#">Work</p>
+              </div>
+              <div class="navbar-text mx-4">
+                <p class="nav-link hovernav" href="#">Services</p>
+              </div>
+              <div class="navbar-text mx-4">
+                <p class="nav-link hovernav" href="#">Testimonials</p>
+              </div>
+              <div class="navbar-text mx-4">
+                <p class="nav-link hovernav" href="#">Contact</p>
+              </div>
+            </div>
+          </div>
+        </nav>
 
-<div class="container text-fluid">
-    <div class="calc-container">
-
-
-
-<div class="row justify-content-center">
-
-  <form name="calc">
-
-<input type="text" id="entry" class="entry text-end" value="0" readonly>
-
-
-
-
-
-
-
-  </form>
-
-</div>
-
-
-
-
-
-
-
-<!-- Buttons -->
-
-<div class="row">
-  <button type="button" class="btn btn-primary mathBut" onclick="numButPress(7)">7</button>
-  <button type="button" class="btn btn-primary mathBut" onclick="numButPress(8)">8</button>
-  <button type="button" class="btn btn-primary mathBut" onclick="numButPress(9)">9</button>
-  <button type="button" class="btn btn-success mathBut" onclick="numButPress(+)">+</button>
-</div>
-<div class="row">
-  <button type="button" class="btn btn-primary mathBut" onclick="numButPress(4)">4</button>
-  <button type="button" class="btn btn-primary mathBut" onclick="numButPress(5)">5</button>
-  <button type="button" class="btn btn-primary mathBut" onclick="numButPress(6)">6</button>
-  <button type="button" class="btn btn-success mathBut" onclick="numButPress(-)">-</button>
-</div>
-<div class="row">
-  <button type="button" class="btn btn-primary mathBut" onclick="numButPress(1)">1</button>
-  <button type="button" class="btn btn-primary mathBut" onclick="numButPress(2)">2</button>
-  <button type="button" class="btn btn-primary mathBut" onclick="numButPress(3)">3</button>
-  <button type="button" class="btn btn-success mathBut" onclick="numButPress('*')">*</button>
-</div>
-<div class="row">
-  <button type="button" class="btn btn-danger mathBut" onclick="clearButPress()">AC</button>
-  <button type="button" class="btn btn-primary mathBut" onclick="numButPress(0)">0</button>
-  <button type="button" class="btn btn-primary mathBut" onclick="numButPress('.')">.</button>
-  <button type="button" class="btn btn-success mathBut" onclick="numButPress('/')">/</button>
-</div>
-<div class="row">
-  <button type="button" class="btn btn-warning mathBut" onclick="copyButPress()">MC</button>
-  <button type="button" class="btn btn-warning mathBut" onclick="pasteButPress()">MP</button>
-  <button type="button" class="btn btn-info mathBut equalBut" onclick="equalButPress()">=</button>
-</div>
-
-
-
-
-
+        <!-- Summary -->
+        <div class="hero-text">
+          <h1 class="font1 small-text-padding">We Design and Develop</h1>
+          
+          <p class="font1 light-text small-text-padding">We are a new design studio based in USA. We have over 20 years of combined
+            experience, and know a thing or two about designing websites and mobile apps.</p>
+          
+          <button class="font1 small-text-padding">CONTACT US</button>
+        </div>
+      </div>
     </div>
-</div>
+  </div>
+  </div>
+<!-- About Us -->
+  <section id="about">
+    <div class="about-content">
+      <h1 class="font1 small-text-padding">About Us</h1>
+      
+      <p class="about-text light-text small-text-padding">Divide have don't man wherein air fourth. Own itself make have night won't make.
+        A you under Seed appear which good give. Own give air without fowl moveth dry first
+        heaven fruit, dominion she'd won't very all.</p>
+      
+      <img src="images/signature.png" class="large-text-padding">
+    </div>
+    
+    
+    <!-- Skills and percentages of each skills with decorative image on the right -->
+    <div class="skills">
+      <div class="leftside">
+        <div class="container-fluid">
+          <div class="row">
+
+            <div class="col-md-6 progbar">
+
+              <h1 class="font1 small-text-padding">Professional Skills</h1>
+              
+              
+              <p class="font1">UI/UX DESIGN 75%</p>
+              <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0"
+                aria-valuemax="100">
+                <div class="progress-bar" style="width: 75%"></div>
+              </div>
+              
+              
+              <p class="font1">WEB DEVELOPMENT 90%</p>
+              <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0"
+                aria-valuemax="100">
+                <div class="progress-bar" style="width: 90%"></div>
+              </div>
+              
+              
+              <p class="font1">MARKETING 65%</p>
+              <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0"
+                aria-valuemax="100">
+                <div class="progress-bar" style="width: 65%"></div>
+              </div>
+
+            </div>
+
+            <div class="col-md-6">
+
+              <img src="images/stil-sHGyGynyD5Y-unsplash.png" class="skillsimg">
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- statistics and number of projects, hours, feedback, and working hours -->
+  <section id="stats">
+
+    <div class="container-fluid">
+      <div class="row align-items-center stats font1 mx-5">
+        <div class="col">
+          <img src="images/icons/icon-01.png">
+          <h5>548</h5>
+          <p>PROJECTS COMPLETED</p>
+        </div>
+        <div class="col">
+          <img src="images/icons/icon-02.png">
+          <h5>1465</h5>
+          <p>WORKING HOURS</p>
+        </div>
+        <div class="col">
+          <img src="images/icons/icon-03.png">
+          <h5>612</h5>
+          <p>POSITIVE FEEDBACKS</p>
+        </div>
+        <div class="col">
+          <img src="images/icons/icon-04.png">
+          <h5>735</h5>
+          <p>HAPPY CLIENTS</p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+  </section>
+
+
+
+<!-- this shows different products with a hover effect on it -->
+
+  <sections id="products"> 
+    <div class="prodbg">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <div class="figure w-100">
+            <img class="Sirv image-main" src="https://demo.sirv.com/hc.view?thumb=1&w=500" data-src="images/Package Design Lemon Tea - fabian krotzer Frame.png">
+            <img class="Sirv image-hover" data-src="images/lemonhov.png">
+          </div>
+        </div>
+        <div class="col">
+          <div class="figure w-100">
+            <img class="Sirv image-main" src="https://demo.sirv.com/hc.view?thumb=1&w=500" data-src="images/Package Design Vanilla Powder - fabian krotzer Frame.png">
+            <img class="Sirv image-hover" data-src="images/vanillahov.png">
+          </div>
+        </div>
+        <div class="col">
+          <div class="figure w-100">
+            <img class="Sirv image-main" src="https://demo.sirv.com/hc.view?thumb=1&w=500" data-src="images/Package Design Coconut - fabian krotzer Frame.png">
+            <img class="Sirv image-hover" data-src="images/coconutflakeshov.png">
+          </div>
+        </div>
+        <div class="col">
+          <div class="figure w-100">
+            <img class="Sirv image-main" src="https://demo.sirv.com/hc.view?thumb=1&w=500" data-src="images/Package Design Komaso - fabian krotzer Frame.png">
+            <img class="Sirv image-hover" data-src="images/komasohov.png">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="figure w-100">
+            <img class="Sirv image-main" src="https://demo.sirv.com/hc.view?thumb=1&w=500" data-src="images/Package Design Spices - fabian krotzer Frame.png">
+            <img class="Sirv image-hover" data-src="images/spiceshov.png">
+          </div>
+        </div>
+        <div class="col">
+          <div class="figure w-100">
+            <img class="Sirv image-main" src="https://demo.sirv.com/hc.view?thumb=1&w=500" data-src="images/Package Design Salad - fabian krotzer Frame.png">
+            <img class="Sirv image-hover" data-src="images/freshsaladmixhov.png">
+          </div>
+        </div>
+        <div class="col">
+          <div class="figure w-100">
+            <img class="Sirv image-main" src="https://demo.sirv.com/hc.view?thumb=1&w=500" data-src="images/Package Design Olive Oil - fabian krotzer Frame.png">
+            <img class="Sirv image-hover" data-src="images/oliveoilhov.png">
+          </div>
+        </div>
+        <div class="col">
+          <div class="figure w-100">
+            <img class="Sirv image-main" src="https://demo.sirv.com/hc.view?thumb=1&w=500" data-src="images/Package Design Seaweed - fabian krotzer Frame.png">
+            <img class="Sirv image-hover" data-src="images/seaweedmixhov.png">
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    </div>
+    </sections>
+
+    
+    
+
+
+
+
+
+
+
+
+
+<!-- a list with different services and icons on it -->
+  <section id="services">
+    <div class="container-fluid">
+      <div class="row">
+        <h1 class="font1 text-center servicetitle">Services</h1>
+      </div>
+      <div class="row text-center">
+        <div class="col" class=""><img src="images/icons/icon-05.png" class="imgmarg">
+          <p class="service-title"><b>UI/UX DESIGN</b></p>
+          <p class="service-text">Be set fourth land god darkness make it wherein own</p>
+        </div>
+        <div class="col" class=""><img src="images/icons/icon-06.png" class="imgmarg">
+          <p class="service-title"><b>WEB DEVELOPMENT</b></p>
+          <p class="service-text">A she'd them bring void moving third she'd kind fill</p>
+        </div>
+        <div class="col" class=""><img src="images/icons/icon-07.png" class="imgmarg">
+          <p class="service-title"><b>APP / MOBILE</b></p>
+          <p class="service-text">Dominion man second spirit he, earth they're creeping</p>
+        </div>
+        <div class="col" class=""><img src="images/icons/icon-08.png" class="imgmarg">
+          <p class="service-title"><b>GAME DESIGN</b></p>
+          <p class="service-text">Morning his saying moveth it multiply appear life be</p>
+        </div>
+        </div>
+      <div class="row text-center large-text-padding">
+        <div class="col" class=""><img src="images/icons/icon-09.png" class="imgmarg">
+          <p class="service-title"><b>SEO/MARKETING</b></p>
+          <p class="service-text">Give won't after land fill creeping meat you, may</p>
+        </div>
+        <div class="col" class=""><img src="images/icons/icon-10.png" class="imgmarg">
+          <p class="service-title"><b>PHOTOGRAPHY</b></p>
+          <p class="service-text">Creepeth one seas cattle grass give moving saw give</p>
+        </div>
+        <div class="col" class=""><img src="images/icons/icon-11.png" class="imgmarg">
+          <p class="service-title"><b>GRAPHIC DESIGN</b></p>
+          <p class="service-text">Open, great whales air rule for, fourth life whales</p>
+        </div>
+        <div class="col" class=""><img src="images/icons/icon-12.png" class="imgmarg">
+          <p class="service-title"><b>ILLUSTRATIONS</b></p>
+          <p class="service-text">Whales likeness hath, man kind for them air two won't</p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </section>
 
 
 
@@ -91,12 +290,157 @@
 
 
 
-  <script src="script.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-  </script>
+
+
+
+
+<!-- just a motivational quote -->
+
+  <section id="quote">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="quote text-center font1">
+          <h1 class="quotetop">“Outstanding job and exceeded all expectations. It was a pleasure</h1>
+          <h1 class="quotetop">to work with them on a sizable first project and am looking</h1>
+          <h1 class="quotetop replacebr">forward to start the next one asap.”</h1>
+          <p class="quotebottom">MICHAEL HOPKINS</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+<!-- different brands that are sponsored, just some images -->
+  <section id="sponsorthing">
+    <div class="container-fluid">
+      <div class="row text-center sponsor-margin">
+        <div class="col"><img src="images/logos/logo-01.png"></div>
+        <div class="col"><img src="images/logos/logo-02.png"></div>
+        <div class="col"><img src="images/logos/logo-03.png"></div>
+        <div class="col"><img src="images/logos/logo-04.png"></div>
+        <div class="col"><img src="images/logos/logo-05.png"></div>
+      </div>
+    </div>
+  </section>
+
+
+<!-- contact me section with 4 different inputs and classes used to resize and adjust them and they also have custom placeholders and a contact us button -->
+  <section id="contact-me">
+    <div class="container-fluid">
+      <div class="row text-center">
+        <h1 class="contacttitle large-text-padding-top">Need a Project?</h1>
+        <div class="contacttext"><p class=" small-text-padding-top">Let us know what you're looking for in an agency. We'll take a look and see if this could
+          be the start of something beautiful.</p></div>
+
+        <div class="contact-small small-text-padding-top">
+          <table class="mx-auto ">
+            <tr>
+              <td>
+                <input class="contact-info1 mx-auto" placeholder="Your Name">
+              </td>
+              <td>
+                <input class="contact-info1 mx-auto" placeholder="Your Email">
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+        <table>
+          <tr>
+            <div class="row small-text-padding-top">
+              <input type="name" class="contact-info2 mx-auto " placeholder="Your Title">
+            </div>
+          </tr>
+          <tr>
+            <div class="row small-text-padding-top">
+              <input type="comment" class="contact-info2 mx-auto comment" placeholder="Your Comment">
+            </div>
+          </tr>
+        </table>
+      
+          <div class="row large-text-padding mx-auto">
+          <button class="font1 contact-us-button mx-auto">CONTACT US</button>
+        </div>
+    </div>
+  </section>
+
+
+
+<!-- footer with copyright thing, email and phone number, and social media and parts of the site -->
+  <section id="footer" class="font2">
+    <div class="container-fluid footermarg">
+      <div class="row">
+        <div class="col footercol1">
+          <p class="gray font1">Piroll Design, Inc. </p>
+
+          <p class="gray2 copyright">© 2017 Piroll. All rights reserved.
+            Designed by robirurk.</p>
+        </div>
+        <div class="col gray2">
+          <p>hello@pirolltheme.com</p>
+          <p>+44 987 065 908</p>
+        </div>
+        <div class="col gray2">
+          <table>
+            <tr>
+              <td>Projects</td>
+              <td>News</td>
+            </tr>
+            <tr>
+              <td>About</td>
+              <td>Events</td>
+            </tr>
+            <tr>
+              <td>Services</td>
+              <td>Contact</td>
+            </tr>
+            <tr>
+              <td>Career</td>
+              <td>Legal</td>
+            </tr>
+          </table>
+
+
+        </div>
+        <div class="col gray2">
+          <table>
+            <tr>
+              <td>
+                Facebook
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Twitter
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Instagram
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Dribbble
+              </td>
+            </tr>
+          </table>
+
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <script src="https://scripts.sirv.com/sirvjs/v3/sirv.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
-
-
